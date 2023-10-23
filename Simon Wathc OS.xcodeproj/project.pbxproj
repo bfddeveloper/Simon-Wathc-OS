@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		345AA0FD2AE6C15F00FE644A /* Simon Wathc OS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 345AA0FC2AE6C15F00FE644A /* Simon Wathc OS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		345AA1022AE6C15F00FE644A /* Simon_Wathc_OSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345AA1012AE6C15F00FE644A /* Simon_Wathc_OSApp.swift */; };
+		345AA1042AE6C15F00FE644A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345AA1032AE6C15F00FE644A /* ContentView.swift */; };
+		345AA1062AE6C16100FE644A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345AA1052AE6C16100FE644A /* Assets.xcassets */; };
+		345AA1092AE6C16100FE644A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345AA1082AE6C16100FE644A /* Preview Assets.xcassets */; };
+		345AA1132AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345AA1122AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppTests.swift */; };
+		345AA11D2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345AA11C2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITests.swift */; };
+		345AA11F2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345AA11E2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345AA0FE2AE6C15F00FE644A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345AA0F02AE6C15F00FE644A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345AA0FB2AE6C15F00FE644A;
+			remoteInfo = "Simon Wathc OS Watch App";
+		};
+		345AA10F2AE6C16100FE644A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345AA0F02AE6C15F00FE644A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345AA0FB2AE6C15F00FE644A;
+			remoteInfo = "Simon Wathc OS Watch App";
+		};
+		345AA1192AE6C16100FE644A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345AA0F02AE6C15F00FE644A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345AA0FB2AE6C15F00FE644A;
+			remoteInfo = "Simon Wathc OS Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		345AA1252AE6C16100FE644A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				345AA0FD2AE6C15F00FE644A /* Simon Wathc OS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		345AA0F62AE6C15F00FE644A /* Simon Wathc OS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simon Wathc OS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345AA0FC2AE6C15F00FE644A /* Simon Wathc OS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simon Wathc OS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345AA1012AE6C15F00FE644A /* Simon_Wathc_OSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simon_Wathc_OSApp.swift; sourceTree = "<group>"; };
+		345AA1032AE6C15F00FE644A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		345AA1052AE6C16100FE644A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		345AA1082AE6C16100FE644A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		345AA10E2AE6C16100FE644A /* Simon Wathc OS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simon Wathc OS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345AA1122AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simon_Wathc_OS_Watch_AppTests.swift; sourceTree = "<group>"; };
+		345AA1182AE6C16100FE644A /* Simon Wathc OS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simon Wathc OS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		345AA11C2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simon_Wathc_OS_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		345AA11E2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simon_Wathc_OS_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345AA0F92AE6C15F00FE644A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345AA10B2AE6C16100FE644A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345AA1152AE6C16100FE644A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345AA0EF2AE6C15F00FE644A = {
+			isa = PBXGroup;
+			children = (
+				345AA1002AE6C15F00FE644A /* Simon Wathc OS Watch App */,
+				345AA1112AE6C16100FE644A /* Simon Wathc OS Watch AppTests */,
+				345AA11B2AE6C16100FE644A /* Simon Wathc OS Watch AppUITests */,
+				345AA0F72AE6C15F00FE644A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		345AA0F72AE6C15F00FE644A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				345AA0F62AE6C15F00FE644A /* Simon Wathc OS.app */,
+				345AA0FC2AE6C15F00FE644A /* Simon Wathc OS Watch App.app */,
+				345AA10E2AE6C16100FE644A /* Simon Wathc OS Watch AppTests.xctest */,
+				345AA1182AE6C16100FE644A /* Simon Wathc OS Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		345AA1002AE6C15F00FE644A /* Simon Wathc OS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				345AA1012AE6C15F00FE644A /* Simon_Wathc_OSApp.swift */,
+				345AA1032AE6C15F00FE644A /* ContentView.swift */,
+				345AA1052AE6C16100FE644A /* Assets.xcassets */,
+				345AA1072AE6C16100FE644A /* Preview Content */,
+			);
+			path = "Simon Wathc OS Watch App";
+			sourceTree = "<group>";
+		};
+		345AA1072AE6C16100FE644A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				345AA1082AE6C16100FE644A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		345AA1112AE6C16100FE644A /* Simon Wathc OS Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				345AA1122AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppTests.swift */,
+			);
+			path = "Simon Wathc OS Watch AppTests";
+			sourceTree = "<group>";
+		};
+		345AA11B2AE6C16100FE644A /* Simon Wathc OS Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				345AA11C2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITests.swift */,
+				345AA11E2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Simon Wathc OS Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		345AA0F52AE6C15F00FE644A /* Simon Wathc OS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345AA1262AE6C16100FE644A /* Build configuration list for PBXNativeTarget "Simon Wathc OS" */;
+			buildPhases = (
+				345AA0F42AE6C15F00FE644A /* Resources */,
+				345AA1252AE6C16100FE644A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345AA0FF2AE6C15F00FE644A /* PBXTargetDependency */,
+			);
+			name = "Simon Wathc OS";
+			productName = "Simon Wathc OS";
+			productReference = 345AA0F62AE6C15F00FE644A /* Simon Wathc OS.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		345AA0FB2AE6C15F00FE644A /* Simon Wathc OS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345AA1222AE6C16100FE644A /* Build configuration list for PBXNativeTarget "Simon Wathc OS Watch App" */;
+			buildPhases = (
+				345AA0F82AE6C15F00FE644A /* Sources */,
+				345AA0F92AE6C15F00FE644A /* Frameworks */,
+				345AA0FA2AE6C15F00FE644A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simon Wathc OS Watch App";
+			productName = "Simon Wathc OS Watch App";
+			productReference = 345AA0FC2AE6C15F00FE644A /* Simon Wathc OS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345AA10D2AE6C16100FE644A /* Simon Wathc OS Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345AA1292AE6C16100FE644A /* Build configuration list for PBXNativeTarget "Simon Wathc OS Watch AppTests" */;
+			buildPhases = (
+				345AA10A2AE6C16100FE644A /* Sources */,
+				345AA10B2AE6C16100FE644A /* Frameworks */,
+				345AA10C2AE6C16100FE644A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345AA1102AE6C16100FE644A /* PBXTargetDependency */,
+			);
+			name = "Simon Wathc OS Watch AppTests";
+			productName = "Simon Wathc OS Watch AppTests";
+			productReference = 345AA10E2AE6C16100FE644A /* Simon Wathc OS Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		345AA1172AE6C16100FE644A /* Simon Wathc OS Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345AA12C2AE6C16100FE644A /* Build configuration list for PBXNativeTarget "Simon Wathc OS Watch AppUITests" */;
+			buildPhases = (
+				345AA1142AE6C16100FE644A /* Sources */,
+				345AA1152AE6C16100FE644A /* Frameworks */,
+				345AA1162AE6C16100FE644A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345AA11A2AE6C16100FE644A /* PBXTargetDependency */,
+			);
+			name = "Simon Wathc OS Watch AppUITests";
+			productName = "Simon Wathc OS Watch AppUITests";
+			productReference = 345AA1182AE6C16100FE644A /* Simon Wathc OS Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		345AA0F02AE6C15F00FE644A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					345AA0F52AE6C15F00FE644A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					345AA0FB2AE6C15F00FE644A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					345AA10D2AE6C16100FE644A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 345AA0FB2AE6C15F00FE644A;
+					};
+					345AA1172AE6C16100FE644A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 345AA0FB2AE6C15F00FE644A;
+					};
+				};
+			};
+			buildConfigurationList = 345AA0F32AE6C15F00FE644A /* Build configuration list for PBXProject "Simon Wathc OS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 345AA0EF2AE6C15F00FE644A;
+			productRefGroup = 345AA0F72AE6C15F00FE644A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				345AA0F52AE6C15F00FE644A /* Simon Wathc OS */,
+				345AA0FB2AE6C15F00FE644A /* Simon Wathc OS Watch App */,
+				345AA10D2AE6C16100FE644A /* Simon Wathc OS Watch AppTests */,
+				345AA1172AE6C16100FE644A /* Simon Wathc OS Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		345AA0F42AE6C15F00FE644A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345AA0FA2AE6C15F00FE644A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345AA1092AE6C16100FE644A /* Preview Assets.xcassets in Resources */,
+				345AA1062AE6C16100FE644A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345AA10C2AE6C16100FE644A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345AA1162AE6C16100FE644A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		345AA0F82AE6C15F00FE644A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345AA1042AE6C15F00FE644A /* ContentView.swift in Sources */,
+				345AA1022AE6C15F00FE644A /* Simon_Wathc_OSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345AA10A2AE6C16100FE644A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345AA1132AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345AA1142AE6C16100FE644A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345AA11D2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITests.swift in Sources */,
+				345AA11F2AE6C16100FE644A /* Simon_Wathc_OS_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345AA0FF2AE6C15F00FE644A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345AA0FB2AE6C15F00FE644A /* Simon Wathc OS Watch App */;
+			targetProxy = 345AA0FE2AE6C15F00FE644A /* PBXContainerItemProxy */;
+		};
+		345AA1102AE6C16100FE644A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345AA0FB2AE6C15F00FE644A /* Simon Wathc OS Watch App */;
+			targetProxy = 345AA10F2AE6C16100FE644A /* PBXContainerItemProxy */;
+		};
+		345AA11A2AE6C16100FE644A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345AA0FB2AE6C15F00FE644A /* Simon Wathc OS Watch App */;
+			targetProxy = 345AA1192AE6C16100FE644A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345AA1202AE6C16100FE644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		345AA1212AE6C16100FE644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		345AA1232AE6C16100FE644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Simon Wathc OS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JXBBWBBFGX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simon Wathc OS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bfddeveloper.Simon-Wathc-OS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		345AA1242AE6C16100FE644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Simon Wathc OS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JXBBWBBFGX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simon Wathc OS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bfddeveloper.Simon-Wathc-OS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		345AA1272AE6C16100FE644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXBBWBBFGX;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simon Wathc OS";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bfddeveloper.Simon-Wathc-OS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		345AA1282AE6C16100FE644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXBBWBBFGX;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simon Wathc OS";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bfddeveloper.Simon-Wathc-OS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345AA12A2AE6C16100FE644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXBBWBBFGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bfddeveloper.Simon-Wathc-OS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simon Wathc OS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Simon Wathc OS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		345AA12B2AE6C16100FE644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXBBWBBFGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bfddeveloper.Simon-Wathc-OS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simon Wathc OS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Simon Wathc OS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		345AA12D2AE6C16100FE644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXBBWBBFGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bfddeveloper.Simon-Wathc-OS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Simon Wathc OS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		345AA12E2AE6C16100FE644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JXBBWBBFGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-bfddeveloper.Simon-Wathc-OS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Simon Wathc OS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		345AA0F32AE6C15F00FE644A /* Build configuration list for PBXProject "Simon Wathc OS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345AA1202AE6C16100FE644A /* Debug */,
+				345AA1212AE6C16100FE644A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345AA1222AE6C16100FE644A /* Build configuration list for PBXNativeTarget "Simon Wathc OS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345AA1232AE6C16100FE644A /* Debug */,
+				345AA1242AE6C16100FE644A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345AA1262AE6C16100FE644A /* Build configuration list for PBXNativeTarget "Simon Wathc OS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345AA1272AE6C16100FE644A /* Debug */,
+				345AA1282AE6C16100FE644A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345AA1292AE6C16100FE644A /* Build configuration list for PBXNativeTarget "Simon Wathc OS Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345AA12A2AE6C16100FE644A /* Debug */,
+				345AA12B2AE6C16100FE644A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345AA12C2AE6C16100FE644A /* Build configuration list for PBXNativeTarget "Simon Wathc OS Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345AA12D2AE6C16100FE644A /* Debug */,
+				345AA12E2AE6C16100FE644A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 345AA0F02AE6C15F00FE644A /* Project object */;
+}
